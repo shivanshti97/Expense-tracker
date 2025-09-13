@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>💰 Monthly Expense Tracker</h1>
+    
+    <form id="expenseForm">
+      <div class="input-group">
+        <label for="income">Income (₹):</label>
+        <input type="number" id="income" required>
+      </div>
+      <div class="input-group">
+        <label for="expenses">Expenses (₹):</label>
+        <input type="number" id="expenses" required>
+      </div>
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="results" class="card hidden">
+      <h2>Results</h2>
+      <p id="remaining"></p>
+      <p id="advice"></p>
+    </div>
+
+    <div class="card hidden" id="historyCard">
+      <h2>History</h2>
+      <ul id="history"></ul>
+    </div>
+
+    <div class="card hidden" id="chartCard">
+      <h2>Spending Overview</h2>
+      <canvas id="chart"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
