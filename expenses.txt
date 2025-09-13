@@ -1,0 +1,3 @@
+Income: 100, Expenses: 80, Remaining: 20, Advice: You're saving, but could cut expenses 💡
+Income: 122, Expenses: 400, Remaining: -278, Advice: ⚠️ Warning: You're overspending!
+Income: 500, Expenses: 100, Remaining: 400, Advice: 🎉 Great job! You're saving well.
